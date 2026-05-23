@@ -18,9 +18,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows 10 (21H2)
 
 <h2>Preparing AD Infrastructure in Azure</h2>
-<p><img width="1866" height="1982" alt="image" src="https://github.com/user-attachments/assets/8c12a2bc-61f3-45bf-a309-7ded759b6b52" />
+<p><img width="1848" height="1982" alt="image" src="https://github.com/user-attachments/assets/15cc3537-0b0c-4c7c-bbdb-be834848fc83" />
 </p>
-<p>First create a resource group in Azure, we'll call it Active-Directory-Lab4
+<p>First create a resource group in Azure, we'll call it Active-Directory-Lab4. Select the appropriate subscription. For the region, I found (US) West US works for this. Afterwards, go ahead and click "review+create". You'll be taken to another window, on the bottom click "create".
 </p>
 <br />
 <h2>High-Level Deployment and Configuration Steps</h2>
