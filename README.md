@@ -17,6 +17,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows Server 2022
 - Windows 10 (21H2)
 
+<h2>Preparing AD Infrastructure in Azure</h2>
+<p><img width="1866" height="1982" alt="image" src="https://github.com/user-attachments/assets/8c12a2bc-61f3-45bf-a309-7ded759b6b52" />
+</p>
+<p>First create a resource group in Azure, we'll call it Active-Directory-Lab4
+</p>
+<br />
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
