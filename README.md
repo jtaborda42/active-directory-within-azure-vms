@@ -24,6 +24,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 
+<p><img width="1534" height="1508" alt="image" src="https://github.com/user-attachments/assets/5930591c-7367-415d-a655-411357473f9d" />
+</p>
+<p> Once your resource group has been created, click on the magnifying glass icon (this is the search bar for azure) and type in "virutal networks". Click on "virtual networks" and you will be taken to the page above. Click "create" to create your virtual network. Select the appropriate subscription, the resource group that you created, name your virtual network, and select the Region. *Make sure to select the same region as your resource group!* At the bottom, click "Review+create".
+
+<p><img width="1680" height="1848" alt="image" src="https://github.com/user-attachments/assets/e85a8155-b2da-47cb-a46b-ccc1c7729f86" />
+</p>
+<p>After you click "Review+create" you should be directed to a window like the one above. Validation should have passed. Once everything looks good, click create. This will take a several minutes before we go to the next step.</p>
+  
 <p><img width="1866" height="1204" alt="image" src="https://github.com/user-attachments/assets/b9d627fe-2504-4593-931b-cf94a6f8fc07" />
 </p>
 <p>Once your resource group has been created, click on the magnifying glass icon (this is the search bar for azure) and type in "virtual machines". Click on "virtual machines" and you will be taken to the page above. Click "create" and select "virtual machine"(we will be creating two virtual machines.)</p>
