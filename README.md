@@ -26,7 +26,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p><img width="1866" height="1204" alt="image" src="https://github.com/user-attachments/assets/b9d627fe-2504-4593-931b-cf94a6f8fc07" />
 </p>
-<p>Once your resource group has been created, click on the magnifying glass icon (this is the search bar for azure) and type in "virtual machines". Click on "virtual machines" and you will be taken to the page above. Click "create" (there will be two virtual machines being created.)</p>
+<p>Once your resource group has been created, click on the magnifying glass icon (this is the search bar for azure) and type in "virtual machines". Click on "virtual machines" and you will be taken to the page above. Click "create" and select "virtual machine"(we will be creating two virtual machines.)</p>
+<br />
+
+<p></p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
