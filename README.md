@@ -86,6 +86,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p><img width="4096" height="2056" alt="image" src="https://github.com/user-attachments/assets/2001864b-f706-46db-b6ab-93f17d87abc7" />
 </p>
 <p>Under "Private IP address settings", you should see the "Allocation" section with the options "dynamic or static". Select "static" and then click the blue "save" button below. This will keep the private IP address for the dc virtual machine the same, always.</p>
+<br />
+
+<p><img width="2930" height="2058" alt="image" src="https://github.com/user-attachments/assets/9b7521fe-a207-4d21-b3c7-16a62989f394" />
+</p>
+<p>Now go back to the "dc" virtual machine. We're going to copy the public (not the private) IP address. In the "overview" tab, you should see the window above. On the right hand side of the screen, you should see "Primary NIC public IP". Hover your mouse over the public IP address and there should be an icon that pops up next to the IP address. Click on that icon to copy the IP address to your clipboard.</p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
