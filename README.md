@@ -39,8 +39,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p><img width="2826" height="1924" alt="image" src="https://github.com/user-attachments/assets/5c8a3cb6-3abe-4766-aba9-07c72aac3ead" />
 </p>
-<p>For the first virtual machine, select your subscription and the resource group that you created. For the name of the virtual machine, we will call it "dc-2". Select the region (must be the same as your resource group and your virtual network!) For security type, select "trusted launch virtual machines". For the image, make sure to select "Windows Server 2025 Datacenter: Azure Edition x64 Gen2". The size should be "Standard_D2s_v3 - 2 vcpus, 8 GiB memory. 
-Note: Don't stress too much about the cost, this is if the virtual machine is left running for hours on end. We will show you how to turn the virtual machine off so it doesn't rack up on your account.</p>
+<p>For the first virtual machine, select your subscription and the resource group that you created. For the name of the virtual machine, we will call it "dc-2". Select the region (must be the same as your resource group and your virtual network!) For security type, select "trusted launch virtual machines". For the image, make sure to select "Windows Server 2025 Datacenter: Azure Edition x64 Gen2". The size should be "Standard_D2s_v3 - 2 vcpus, 8 GiB memory. Note: Don't stress too much about the cost, this is if the virtual machine is left running for hours on end. We will show you how to turn the virtual machine off so it doesn't rack up on your account.</p>
+<br />
+
+<p><img width="3108" height="1578" alt="image" src="https://github.com/user-attachments/assets/76979ea9-9f84-4b15-8513-74e3e447ae5a" />
+</p>
+<p> Scroll down the page and you should see the next section that says "Administrator account". For the username, we can use "labuser" and choose the password of your choice. Good rule of thumb: Capital letter, lowercase letters, numbers, and special characters help create a strong password. For public inbound ports, "allow selected ports". For select inbound ports, select "RDP (3389)". Check both boxes for the licensing and then click "Next:Disks" and click "Next: Networking".</p>
+<br />
+
+<p><img width="3058" height="1998" alt="image" src="https://github.com/user-attachments/assets/622c9c48-e6cd-4a33-a2dd-4fff0a8d535c" />
+</p>
+<p>For your virtual network, make sure to select the virtual network that we created called "Active-Directory-VNet". The subnet bar should be "default (10.0.0.0/24). For your public IP, make sure to select "dc-2-ip". NIC network seciruty group should be "basic. Public inbound ports should be "allow selected ports". Inbound ports should be "RDP (3389). Check "Enable accelerating networking" and load balancing options can be left as "none". Go ahead and click "Review+create". Once the window loads, click "create". The first virtual machine will take some time to deploy, about several minutes. </p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
