@@ -39,7 +39,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p><img width="2826" height="1924" alt="image" src="https://github.com/user-attachments/assets/5c8a3cb6-3abe-4766-aba9-07c72aac3ead" />
 </p>
-<p>For the first virtual machine, select your subscription and the resource group that you created. For the name of the virtual machine, we will call it "dc-2". Select the region (must be the same as your resource group and your virtual network!) For security type, select "trusted launch virtual machines". For the image, make sure to select "Windows Server 2025 Datacenter: Azure Edition x64 Gen2". </p>
+<p>For the first virtual machine, select your subscription and the resource group that you created. For the name of the virtual machine, we will call it "dc-2". Select the region (must be the same as your resource group and your virtual network!) For security type, select "trusted launch virtual machines". For the image, make sure to select "Windows Server 2025 Datacenter: Azure Edition x64 Gen2". The size should be "Standard_D2s_v3 - 2 vcpus, 8 GiB memory. Note: Don't stress too much about the cost, this is if the virtual machine is left running for hours on end. We will show you how to turn the virtual machine off so it doesn't rack up on your account.</p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
