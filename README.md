@@ -50,6 +50,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p><img width="3058" height="1998" alt="image" src="https://github.com/user-attachments/assets/622c9c48-e6cd-4a33-a2dd-4fff0a8d535c" />
 </p>
 <p>For your virtual network, make sure to select the virtual network that we created called "Active-Directory-VNet". The subnet bar should be "default (10.0.0.0/24). For your public IP, make sure to select "dc-2-ip". NIC network seciruty group should be "basic. Public inbound ports should be "allow selected ports". Inbound ports should be "RDP (3389). Check "Enable accelerating networking" and load balancing options can be left as "none". Go ahead and click "Review+create". Once the window loads, click "create". The first virtual machine will take some time to deploy, about several minutes. </p>
+<br />
+
+<p><img width="2452" height="1860" alt="image" src="https://github.com/user-attachments/assets/50a090c8-d315-45e4-992a-0e12c9762fcb" />
+</p>
+<p>Once your first virtual machine has successfully deployed, go ahead and go back to "virtual machines" in the search bar. We're going to create the second virtual machine.</p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
