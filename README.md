@@ -106,6 +106,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p><img width="1878" height="1438" alt="image" src="https://github.com/user-attachments/assets/c4bf598b-af2b-4e7d-bc5b-6b5e112d088a" />
 </p>
 <p>Paste the public IP address for the dc virtual machine in the "PC name" tab. In the 'friendly name' tab, type in "dc-2" and click on "add". </p>
+<br />
+
+<p><img width="1556" height="1094" alt="image" src="https://github.com/user-attachments/assets/7caee27a-2c44-49e7-be8e-bdee2e94bb3a" />
+</p>
+<p> If entered correctly, you should see the 'dc-2' virtual machine in saved devices. Go ahead and double click on "dc-2" and a window will pop up asking you to input your credentials. Type in the username 'labuser' and the password you set for the virtual machine. Click 'connect' and another window will pop up. Click connect again and you should be connected to the dc-2 virtual machine.</p>
+<br />
+
+<p><img width="4096" height="2210" alt="image" src="https://github.com/user-attachments/assets/8e5f6b2b-d644-43db-a0ae-55a82d523844" />
+</p>
+<p>Once the virtual machine has loaded, you will know that you connected to the dc-2 virtual machine if the systems manager window pops up as the machine loads. If this window does not automatically pop up, there was an error made during the set up process. </p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
