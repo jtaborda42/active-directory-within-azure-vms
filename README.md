@@ -76,6 +76,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p><img width="4062" height="2010" alt="image" src="https://github.com/user-attachments/assets/ba268bd1-db56-4b3f-83a2-5a69a23a7b4d" />
 </p>
 <p>You should be able to see a small window in "network settings" that says "Network interface / IP configuration: dc-2589 (primary) / ipconfig1 (primary)" click on the blue lettering and it will take you to the next window.</p>
+<br />
+
+<p><img width="2918" height="1548" alt="image" src="https://github.com/user-attachments/assets/58a84815-f73e-4e48-9298-2c040183a838" />
+</p>
+<p>Here you will be on the "IP configurations" settings. Click on the blue lettering that says "ipconfig1". It will open another window that says "edit IP configuration."</p>
+<br />
+
+<p><img width="4096" height="2056" alt="image" src="https://github.com/user-attachments/assets/2001864b-f706-46db-b6ab-93f17d87abc7" />
+</p>
+<p>Under "Private IP address settings", you should see the "Allocation" section with the options "dynamic or static". Select "static" and then click the blue "save" button below. This will keep the private IP address for the dc virtual machine the same, always.</p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
