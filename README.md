@@ -56,6 +56,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>Once your first virtual machine has successfully deployed, go ahead and go back to "virtual machines" in the search bar. We're going to create the second virtual machine. Same process, select the appropriate subscription (the subscription should be the same as your resource group, virtual network, and your first virtual machine). Resource group, select the resource group we created, in this case "active-directory-lab". The name of your second virtual machine will be "client-2". Set the region as your resource group and virtual machine, in this case "(US) West US". Availability options should be "no infrastructure redunandcy required". Security type, "trusted launch virtual machines."</p>
 <p>*For your image, select "Windows 11 Pro, version 25H2 - x64 Gen2". VM architecture should be "x64". The size should be "Standard_D2s_v3 - 2 vcpus, 8 GiB memory."</p>
+<br />
+
+<p><img width="2162" height="2018" alt="image" src="https://github.com/user-attachments/assets/c68c3410-9f80-4447-8c2f-c65a4ab147ad" />
+</p> Username, we will use the same username as the first virtual machine; in this case, "labuser". Password can be the same as your first virtual machine *be sure to write down the username(s) and password(s) in case you forget!* On Public inbound ports, select "allow selected ports". Select "RDP (3389)" for inbound ports. Check the licensing box and click "next: disks" and then "next: networking". </p>
+<br />
+
+<p><img width="2336" height="1980" alt="image" src="https://github.com/user-attachments/assets/a3febe52-d813-4f82-af5c-fdc4aeb770b6" />
+</p>
+<p> On the "network interface" section, select "active-directory-VNet" for your virtual network. Subnet, Public IP, NIC network security group, Public inbound ports, inbound ports should be the same as the above picture. Then go ahead and click "Review+create". Once the window loads, click "create" and the second virtual machine should deploy. Again, it will take a couple minutes to complete.</p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
