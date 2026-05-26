@@ -59,12 +59,23 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p><img width="2162" height="2018" alt="image" src="https://github.com/user-attachments/assets/c68c3410-9f80-4447-8c2f-c65a4ab147ad" />
-</p> Username, we will use the same username as the first virtual machine; in this case, "labuser". Password can be the same as your first virtual machine *be sure to write down the username(s) and password(s) in case you forget!* On Public inbound ports, select "allow selected ports". Select "RDP (3389)" for inbound ports. Check the licensing box and click "next: disks" and then "next: networking". </p>
+</p> 
+<p>Username, we will use the same username as the first virtual machine; in this case, "labuser". Password can be the same as your first virtual machine *be sure to write down the username(s) and password(s) in case you forget!* On Public inbound ports, select "allow selected ports". Select "RDP (3389)" for inbound ports. Check the licensing box and click "next: disks" and then "next: networking".</p>
 <br />
 
 <p><img width="2336" height="1980" alt="image" src="https://github.com/user-attachments/assets/a3febe52-d813-4f82-af5c-fdc4aeb770b6" />
 </p>
 <p> On the "network interface" section, select "active-directory-VNet" for your virtual network. Subnet, Public IP, NIC network security group, Public inbound ports, inbound ports should be the same as the above picture. Then go ahead and click "Review+create". Once the window loads, click "create" and the second virtual machine should deploy. Again, it will take a couple minutes to complete.</p>
+<br />
+
+<p><img width="2942" height="1884" alt="image" src="https://github.com/user-attachments/assets/bec5485c-3d2a-439c-a2b1-e4d6402ad40f" />
+</p>
+<p>Once the "client-2" virtual machine is loaded, go back to the search bar and select "virtual machines". Click on the "dc" virtual machine. On the drop down menu (underneath the search bar and overview on the left), open the "networking" tab and click on "network settings". Here, we are going to change the private IP address from "dynamic" to "static". This is so the client-1 virtual machine communicates with the dc virtual machine without the private IP address continously changing. </p>
+<br />
+
+<p><img width="4062" height="2010" alt="image" src="https://github.com/user-attachments/assets/ba268bd1-db56-4b3f-83a2-5a69a23a7b4d" />
+</p>
+<p>You should be able to see a small window in "network settings" that says "Network interface / IP configuration: dc-2589 (primary) / ipconfig1 (primary)" click on the blue lettering and it will take you to the next window.</p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
