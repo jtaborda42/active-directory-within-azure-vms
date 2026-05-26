@@ -91,6 +91,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p><img width="2930" height="2058" alt="image" src="https://github.com/user-attachments/assets/9b7521fe-a207-4d21-b3c7-16a62989f394" />
 </p>
 <p>Now go back to the "dc" virtual machine. We're going to copy the public (not the private) IP address. In the "overview" tab, you should see the window above. On the right hand side of the screen, you should see "Primary NIC public IP". Hover your mouse over the public IP address and there should be an icon that pops up next to the IP address. Click on that icon to copy the IP address to your clipboard.</p>
+<br />
+
+<p><img width="2352" height="1236" alt="image" src="https://github.com/user-attachments/assets/fcabe270-3887-442b-b618-2f62f7ea3950" />
+</p>
+<p>Open the app store on your desktop and search for "windows app". (On Mac, this is previously known as 'Remote Desktop'. This is how we will be launching the virtual machines.) Open "Windows App". (For non-Mac users, the common app is 'Remote Desktop Connection')</p>
+<br />
+
+<p><img width="2016" height="1430" alt="image" src="https://github.com/user-attachments/assets/9ee19084-c871-40f3-8b56-18e96b0d2898" />
+</p>
+<p>Once Windows App (or Remote Desktop Connection) is open, click on the '+' sign and select "add PC". </p>
+<br />
+
+<p><img width="1878" height="1438" alt="image" src="https://github.com/user-attachments/assets/c4bf598b-af2b-4e7d-bc5b-6b5e112d088a" />
+</p>
+<p>Paste the public IP address for the dc virtual machine in the "PC name" tab. In the 'friendly name' tab, type in "dc-2" and click on "add". </p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
