@@ -54,7 +54,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p><img width="2452" height="1860" alt="image" src="https://github.com/user-attachments/assets/50a090c8-d315-45e4-992a-0e12c9762fcb" />
 </p>
-<p>Once your first virtual machine has successfully deployed, go ahead and go back to "virtual machines" in the search bar. We're going to create the second virtual machine.</p>
+<p>Once your first virtual machine has successfully deployed, go ahead and go back to "virtual machines" in the search bar. We're going to create the second virtual machine. Same process, select the appropriate subscription (the subscription should be the same as your resource group, virtual network, and your first virtual machine). Resource group, select the resource group we created, in this case "active-directory-lab". The name of your second virtual machine will be "client-2". Set the region as your resource group and virtual machine, in this case "(US) West US". Availability options should be "no infrastructure redunandcy required". Security type, "trusted launch virtual machines."</p>
+<p>*For your image, select "Windows 11 Pro, version 25H2 - x64 Gen2". VM architecture should be "x64". The size should be "Standard_D2s_v3 - 2 vcpus, 8 GiB memory."</p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
