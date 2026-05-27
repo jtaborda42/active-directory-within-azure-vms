@@ -152,6 +152,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p><img width="3836" height="1362" alt="image" src="https://github.com/user-attachments/assets/7ffe35c2-9fed-4162-bf1b-e64f0e7912cf" />
 </p>
 <p>Go back to the virtual machines section, check the box next to "client-2" and click "restart". You'll have a window pop up confirming to restart the selected virtual machines. Click yes or ok. Give it a few minutes and then log back in on the Windows App.</p>
+<br />
+
+<p><img width="2018" height="1434" alt="image" src="https://github.com/user-attachments/assets/3a216dc9-84b6-4d71-8a86-6cd448e7e474" />
+</p>
+<p>Go back to virtual machines in Azure and click on "client-2". Copy Client-2's public (not private) IP Address. Open the windows app. Click the "+" sign and add a computer. Paste client-2's public IP address in the PC name tab and name your computer "client-2". Click add. Now login to client-2. Remember, username is labuser and your selected password.</p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
