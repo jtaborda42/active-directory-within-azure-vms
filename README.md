@@ -162,6 +162,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p><img width="2020" height="1678" alt="image" src="https://github.com/user-attachments/assets/6ec859da-f529-4426-b5dc-4bb33733d26c" />
 </p>
 <p>Now that we are logged into client-2, we're going to attempt to ping the private IP address of DC-2. In the search bar at the bottom, type in 'powershell' and click on "Windows Powershell" when it appears in the search bar. </p>
+<br />
+
+<p><img width="2360" height="1462" alt="image" src="https://github.com/user-attachments/assets/fdc55e96-2416-482b-bb08-adfd44159db7" />
+</p>
+<p>In powershell, type "ping" (ping should be in yellow), press the space bar and then type in (or paste) the private IP Address for dc-2. Hit the enter, or return, button and you should be communicating with DC-2's Private IP address. If you are not, there was an error made in the previous steps. </p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
