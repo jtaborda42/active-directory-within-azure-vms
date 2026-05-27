@@ -137,6 +137,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p><img width="3596" height="2092" alt="image" src="https://github.com/user-attachments/assets/5a6e8b23-c059-454c-ad78-394bce9c1f38" />
 </p>
 <p>Next we're going to set Client-2's DNS settings to DC-2's Private IP address. Go back to virtual machines in azure and click on DC-2. You should be able to see the overview section of DC-2. DC-2's private IP address in this case is 10.0.0.4. Yours might be different, just bare in mind.  </p>
+<br />
+
+<p><img width="2450" height="1894" alt="image" src="https://github.com/user-attachments/assets/253f5493-01dc-49b4-8080-c9593a78cd38" />
+</p>
+<p>Go back to virtual machines, click on "Client-2". On the left hand side, you should see various tabs. Look for the one that says "Networking" and click on it. There should be a few more tabs, click on the one that says "Network Settings". Next, click on the Network Interface Card (client-2921 (primary) / ipconfig1 (primary).</p>
+<br />
+
+<p><img width="2320" height="1488" alt="image" src="https://github.com/user-attachments/assets/57aa91ac-924e-4435-aacf-8731dade741e" />
+</p>
+<p>On the left hand side, you should see several options under "Settings". Click on the option that says "DNS servers". Switch the DNS server to "Custom" and in the box that says "add DNS server", type in the private IP address for DC-2. Make sure to hit "Save" (next to the discard button). </p>
+<br />
+
+<p><img width="3836" height="1362" alt="image" src="https://github.com/user-attachments/assets/7ffe35c2-9fed-4162-bf1b-e64f0e7912cf" />
+</p>
+<p>Go back to the virtual machines section, check the box next to "client-2" and click "restart". You'll have a window pop up confirming to restart the selected virtual machines. Click yes or ok. Give it a few minutes and then log back in on the Windows App.</p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
