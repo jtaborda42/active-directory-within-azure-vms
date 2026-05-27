@@ -115,7 +115,23 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p><img width="4096" height="2210" alt="image" src="https://github.com/user-attachments/assets/8e5f6b2b-d644-43db-a0ae-55a82d523844" />
 </p>
-<p>Once the virtual machine has loaded, you will know that you connected to the dc-2 virtual machine if the systems manager window pops up as the machine loads. If this window does not automatically pop up, there was an error made during the set up process. </p>
+<p>Once the virtual machine has loaded, you will know that you connected to the dc-2 virtual machine if the systems manager window pops up as the machine loads. If this window does not automatically pop up, there was an error made during the set up process. For this next step, we're going to turn off the firewall in the virtual machine (just for the sake of the lab only).</p>
+<br />
+
+<p><img width="1646" height="1322" alt="image" src="https://github.com/user-attachments/assets/99c774d2-704b-4eae-8ded-ee65c5e9ff89" />
+</p>
+<p>Right click on the start menu (the windows icon) and you should see a menu pop up. Click on "Run".</p>
+<br />
+
+<p><img width="1274" height="550" alt="image" src="https://github.com/user-attachments/assets/e5b52416-2cb0-4442-8011-0ab8ca2c1f96" />
+</p>
+<p>In the open bar, type in "wf.msc" and click OK.
+</p>
+<br />
+
+<p><img width="2922" height="1674" alt="image" src="https://github.com/user-attachments/assets/e8d006cc-09b0-4bcc-855a-3dfdfca7f039" />
+</p>
+<p>Click on "Windows Defender Firewall Properties" and a second window should open. Under the "Domain Profile" tab, turn off the firewall. Do the same for the "Private Profile" tab and the "Public Profile" tab. Once all three firewalls are turned off, click "apply" and then click "ok".</p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
