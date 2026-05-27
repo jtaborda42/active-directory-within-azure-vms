@@ -132,6 +132,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p><img width="2922" height="1674" alt="image" src="https://github.com/user-attachments/assets/e8d006cc-09b0-4bcc-855a-3dfdfca7f039" />
 </p>
 <p>Click on "Windows Defender Firewall Properties" and a second window should open. Under the "Domain Profile" tab, turn off the firewall. Do the same for the "Private Profile" tab and the "Public Profile" tab. Once all three firewalls are turned off, click "apply" and then click "ok".</p>
+<br />
+
+<p><img width="3596" height="2092" alt="image" src="https://github.com/user-attachments/assets/5a6e8b23-c059-454c-ad78-394bce9c1f38" />
+</p>
+<p>Next we're going to set Client-2's DNS settings to DC-2's Private IP address. Go back to virtual machines in azure and click on DC-2. You should be able to see the overview section of DC-2. DC-2's private IP address in this case is 10.0.0.4. Yours might be different, just bare in mind.  </p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
