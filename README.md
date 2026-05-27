@@ -157,6 +157,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p><img width="2018" height="1434" alt="image" src="https://github.com/user-attachments/assets/3a216dc9-84b6-4d71-8a86-6cd448e7e474" />
 </p>
 <p>Go back to virtual machines in Azure and click on "client-2". Copy Client-2's public (not private) IP Address. Open the windows app. Click the "+" sign and add a computer. Paste client-2's public IP address in the PC name tab and name your computer "client-2". Click add. Now login to client-2. Remember, username is labuser and your selected password.</p>
+<br />
+
+<p><img width="2020" height="1678" alt="image" src="https://github.com/user-attachments/assets/6ec859da-f529-4426-b5dc-4bb33733d26c" />
+</p>
+<p>Now that we are logged into client-2, we're going to attempt to ping the private IP address of DC-2. In the search bar at the bottom, type in 'powershell' and click on "Windows Powershell" when it appears in the search bar. </p>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
