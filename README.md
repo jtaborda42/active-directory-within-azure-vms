@@ -20,13 +20,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Preparing AD Infrastructure in Azure</h2>
 <p><img width="1848" height="1982" alt="image" src="https://github.com/user-attachments/assets/15cc3537-0b0c-4c7c-bbdb-be834848fc83" />
 </p>
-<p>First create a resource group in Azure, we'll call it Active-Directory-Lab4. Select the appropriate subscription. For the region, I found (US) West US works for this. Afterwards, go ahead and click "review+create". You'll be taken to another window, on the bottom click "create".
+<p>Step 1: create a resource group, we'll call it Active-Directory-Lab4. Select the appropriate subscription. For the region, I found (US) West US works for this. Afterwards, go ahead and click "review+create". You'll be taken to another window, on the bottom click "create".
 </p>
 <br />
 
 <p><img width="1534" height="1508" alt="image" src="https://github.com/user-attachments/assets/5930591c-7367-415d-a655-411357473f9d" />
 </p>
-<p> Once your resource group has been created, click on the magnifying glass icon (this is the search bar for azure) and type in "virutal networks". Click on "virtual networks" and you will be taken to the page above. Click "create" to create your virtual network. Select the appropriate subscription, the resource group that you created, name your virtual network, and select the Region. *Make sure to select the same region as your resource group!* At the bottom, click "Review+create".
+<p> Click on the magnifying glass icon (this is the search bar for azure) and type in "virutal networks". Click on "virtual networks" and you will be taken to the page above. Click "create" to create your virtual network. Select the appropriate subscription, the resource group that you created, name your virtual network, and select the Region. *Make sure to select the same region as your resource group!* At the bottom, click "Review+create".
 
 <p><img width="1680" height="1848" alt="image" src="https://github.com/user-attachments/assets/e85a8155-b2da-47cb-a46b-ccc1c7729f86" />
 </p>
@@ -167,12 +167,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p><img width="2360" height="1462" alt="image" src="https://github.com/user-attachments/assets/fdc55e96-2416-482b-bb08-adfd44159db7" />
 </p>
 <p>In powershell, type "ping" (ping should be in yellow), press the space bar and then type in (or paste) the private IP Address for dc-2. Hit the enter, or return, button and you should be communicating with DC-2's Private IP address. If you are not, there was an error made in the previous steps. </p>
-<h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
 
 <h2>Deployment and Configuration Steps</h2>
  
