@@ -186,4 +186,10 @@ This tutorial outlines the preparation of a client server and domain controller 
 <p><img width="1616" height="1216" alt="image" src="https://github.com/user-attachments/assets/f90d7e34-8f7d-4c6d-a942-c0fc9d0aaf79" />
 </p>
 <p>In the 'DNS options' tab, uncheck the box that says "create DNS delegation" and click 'next' until you get to the 'prerequisites check' tab. From there, click 'install'. The installation process will take a while (10 minutes or so) and the VM should automatically restart.</p>
+<br />
+
+<p><img width="2338" height="1446" alt="image" src="https://github.com/user-attachments/assets/cc24e360-4a8f-4e49-a855-b15f3ade9a68" />
+</p>
+<p>Now that the domain controller is an acutal domain controller, log back in to dc-2 with the following credentials. Username: mydomain.com\labuser and your password for 'labuser'. *Make sure to use the forward slash '\' not the backslash '/'. The reason to login with 'mydomain.com/user' for this is simply to login as an individual user, like Jane or John. It will make more sense as you go along through the tutorial. </p>
+<br />
  
