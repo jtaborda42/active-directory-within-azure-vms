@@ -171,7 +171,11 @@ This tutorial outlines the preparation of a client server and domain controller 
 <p><img width="3822" height="1962" alt="image" src="https://github.com/user-attachments/assets/e6d4fbb5-eb4f-48dd-b523-cf941d19abfa" />
 </p>
 <p>Go to your DC desktop and open "Server Manager". Click on "Add Roles and Features." Click "Next" until you reach the "Server Roles" tab. Check the box that says "Active Directory Domain Services" and click "next" until you reach the "Confirmation" tab. Check the box that says "Restart the destination server", another window will pop up with a 'yes' or 'no' option. Click yes and then click "Install."</p>
+<br />
 
+<p><img width="3506" height="1628" alt="image" src="https://github.com/user-attachments/assets/f3b02696-1e6e-4825-8d6c-2b4a016df61f" />
+</p>
+<p>Now, we're going to configure the active directory as our Domain Controller. In Server Manager, click on the flag icon at the right hand corner and click on "promote this server to a domain controller." </p>
 
 <h2>Deployment and Configuration Steps</h2>
  
