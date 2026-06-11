@@ -168,6 +168,10 @@ This tutorial outlines the preparation of a client server and domain controller 
 </p>
 <p>In powershell, type "ping" (ping should be in yellow), press the space bar and then type in (or paste) the private IP Address for dc-2. Hit the enter, or return, button and you should be communicating with DC-2's Private IP address. If you are not, there was an error made in the previous steps. </p>
 
+<p><img width="3822" height="1962" alt="image" src="https://github.com/user-attachments/assets/e6d4fbb5-eb4f-48dd-b523-cf941d19abfa" />
+</p>
+<p>Go to your DC desktop and open "Server Manager". Click on "Add Roles and Features." Click "Next" until you reach the "Server Roles" tab. Check the box that says "Active Directory Domain Services" and click "next" until you reach the "Confirmation" tab. Check the box that says "Restart the destination server", another window will pop up with a 'yes' or 'no' option. Click yes and then click "Install."</p>
+
 
 <h2>Deployment and Configuration Steps</h2>
  
