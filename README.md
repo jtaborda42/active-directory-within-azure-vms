@@ -176,6 +176,14 @@ This tutorial outlines the preparation of a client server and domain controller 
 <p><img width="3506" height="1628" alt="image" src="https://github.com/user-attachments/assets/f3b02696-1e6e-4825-8d6c-2b4a016df61f" />
 </p>
 <p>Now, we're going to configure the active directory as our Domain Controller. In Server Manager, click on the flag icon at the right hand corner and click on "promote this server to a domain controller." </p>
+<br />
 
-<h2>Deployment and Configuration Steps</h2>
+<p><img width="2308" height="1566" alt="image" src="https://github.com/user-attachments/assets/b1d07727-cbad-4ab6-b42f-cb5b29a90f01" />
+</p>
+<p>Check the circle that syas "add a new forest" and for your root name, we will use 'mydomain.com' and click 'next'. In the 'domain controller options' tab, input a password you will rememver and click 'next'.</p>
+<br />
+
+<p><img width="1616" height="1216" alt="image" src="https://github.com/user-attachments/assets/f90d7e34-8f7d-4c6d-a942-c0fc9d0aaf79" />
+</p>
+<p>In the 'DNS options' tab, uncheck the box that says "create DNS delegation" and click 'next' until you get to the 'prerequisites check' tab. From there, click 'install'. The installation process will take a while (10 minutes or so) and the VM should automatically restart.</p>
  
