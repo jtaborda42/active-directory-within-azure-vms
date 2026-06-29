@@ -193,3 +193,24 @@ This tutorial outlines the preparation of a client server and domain controller 
 <p>Now that the domain controller is an acutal domain controller, log back in to dc-2 with the following credentials. Username: mydomain.com\labuser and your password for 'labuser'. *Make sure to use the forward slash '\' not the backslash '/'. The reason to login with 'mydomain.com/user' for this is simply to login as an individual user, like Jane or John. It will make more sense as you go along through the tutorial. </p>
 <br />
  
+<h2>Creating an Domain Admin user within the Domain</h2>
+
+<p><img width="1556" height="1460" alt="image" src="https://github.com/user-attachments/assets/3c9786a8-cbb8-4b21-bb46-d108bd851696" />
+</p>
+<br />
+
+<p>Now that you are logged into DC-2 as "mydomain.com\labuser", in the Start menu, search and open "active directory users and computers".</p>
+<br />
+
+<p><img width="1652" height="1224" alt="image" src="https://github.com/user-attachments/assets/5af97038-1068-4067-8505-165c05d3f31c" />
+</p>
+<br />
+
+<p>Right click "mydomain.com" and hover your mouse over "New" and then click on "Organizational Unit".</p>
+<br />
+
+<p><img width="884" height="776" alt="image" src="https://github.com/user-attachments/assets/5da53330-b6d7-4765-b154-0756c21f64b3" />
+</p>
+<br />
+
+<p>Name your new organizational unit "_EMPLOYEES". ***Be sure to have the underscore in the beginning or this will not work!***</p>
