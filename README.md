@@ -241,3 +241,17 @@ This tutorial outlines the preparation of a client server and domain controller 
 <br />
 
 <p>You should see "Domain admins" in the "Member of" box. Hit "apply" and "okay." Now Jane Doe is a Domain Admin. Logout of DC-2 and log back in as "mydomain.com\jane_admin" and with whatever password you set.</p>
+<br />
+
+<p><img width="3112" height="1932" alt="image" src="https://github.com/user-attachments/assets/776fc39c-463d-4f8a-9b92-ef31e2d8e903" />
+</p>
+<br />
+
+<p>Log into "client-2" (if you have not done so already) as lab user and we're going to join it to the domain. In "client-2", open "System" and then click on "advanced system settings". In the "Computer name" tab, click on the "change" box to change the domain. </p>
+<br />
+
+<p><img width="678" height="814" alt="image" src="https://github.com/user-attachments/assets/75a9b630-b2e1-4316-be70-91d47d127f3c" />
+</p>
+<br />
+
+<p>Click on the "Domain" bullet and type in "mydomain.com" (make sure to spell it right as well.) </p>
