@@ -214,3 +214,30 @@ This tutorial outlines the preparation of a client server and domain controller 
 <br />
 
 <p>Name your new organizational unit "_EMPLOYEES". ***Be sure to have the underscore in the beginning or this will not work!*** Repeat the same process and create a second organizational unit called "_ADMINS". Again, be sure to add the underscore at the beginning!</p>
+<br />
+
+<p><img width="1542" height="1050" alt="image" src="https://github.com/user-attachments/assets/5bed3118-850d-4f06-9305-3b667ec503c9" />
+</p>
+<br />
+
+<p>Now that you have _EMPLOYEES and _ADMINS, let's add a couple new users. Click on _'ADMINS" and in the box on the right, right click and scroll down to "New", then click on "user".</p>
+
+<p><img width="890" height="758" alt="image" src="https://github.com/user-attachments/assets/a95ee82d-d01e-4f1c-9a81-a1b3b377709a" />
+</p>
+<br />
+
+<p>Create your new user as "Jane Doe" and in the user logon name, put "jane_admin". Hit next and you can set the password as "Cyberlab123!". Uncheck the box that prompts the user to change the password. Check the box that says "password never expire" and then finish. (You don't want the password to "never expire" in the real world but for the sake of the lab, we can).
+<br />
+
+<p><img width="3400" height="1186" alt="image" src="https://github.com/user-attachments/assets/c8dfc923-0308-49ec-8275-61e69aa93e4a" />
+</p>
+<br />
+
+<p>Now, we're going to add Jane_admin to the Domain Admins Security group. In Active Directory Users and Computers, right click on "Jane Doe" and then click on "Properties". In the properties window, click "Member of" and then click the "Add" Button. In the white box, type "Domain Admins" and click on "check names". Click "okay".</p>
+<br />
+
+<p><img width="3400" height="1186" alt="image" src="https://github.com/user-attachments/assets/6320496b-e390-4605-bf3c-99321e5771ca" />
+</p>
+<br />
+
+<p>You should see "Domain admins" in the "Member of" box. Hit "apply" and "okay." Now Jane Doe is a Domain Admin. Logout of DC-2 and log back in as "mydomain.com\jane_admin" and with whatever password you set.</p>
