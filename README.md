@@ -236,7 +236,7 @@ This tutorial outlines the preparation of a client server and domain controller 
 <p>Now, we're going to add Jane_admin to the Domain Admins Security group. In Active Directory Users and Computers, right click on "Jane Doe" and then click on "Properties". In the properties window, click "Member of" and then click the "Add" Button. In the white box, type "Domain Admins" and click on "check names". Click "okay".</p>
 <br />
 
-<p><img width="3400" height="1186" alt="image" src="https://github.com/user-attachments/assets/6320496b-e390-4605-bf3c-99321e5771ca" />
+<p><img width="844" height="1100" alt="image" src="https://github.com/user-attachments/assets/861aec15-03e6-4cbd-a77d-adc4db337349" />
 </p>
 <br />
 
