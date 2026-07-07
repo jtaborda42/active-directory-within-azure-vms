@@ -180,7 +180,7 @@ This tutorial outlines the preparation of a client server and domain controller 
 
 <p><img width="2308" height="1566" alt="image" src="https://github.com/user-attachments/assets/b1d07727-cbad-4ab6-b42f-cb5b29a90f01" />
 </p>
-<p>Check the circle that syas "add a new forest" and for your root name, we will use 'mydomain.com' and click 'next'. In the 'domain controller options' tab, input a password you will rememver and click 'next'.</p>
+<p>Check the circle that says "add a new forest" and for your root name, we will use 'mydomain.com' and click 'next'. In the 'domain controller options' tab, input a password you will rememver and click 'next'.</p>
 <br />
 
 <p><img width="1616" height="1216" alt="image" src="https://github.com/user-attachments/assets/f90d7e34-8f7d-4c6d-a942-c0fc9d0aaf79" />
@@ -213,4 +213,4 @@ This tutorial outlines the preparation of a client server and domain controller 
 </p>
 <br />
 
-<p>Name your new organizational unit "_EMPLOYEES". ***Be sure to have the underscore in the beginning or this will not work!***</p>
+<p>Name your new organizational unit "_EMPLOYEES". ***Be sure to have the underscore in the beginning or this will not work!*** Repeat the same process and create a second organizational unit called "_ADMINS". Again, be sure to add the underscore at the beginning!</p>
