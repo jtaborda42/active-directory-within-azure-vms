@@ -255,3 +255,10 @@ This tutorial outlines the preparation of a client server and domain controller 
 <br />
 
 <p>Click on the "Domain" bullet and type in "mydomain.com" (make sure to spell it right as well.) Click "OK" and the "Computer Name/Domain Changes" window should pop up. Type in the username "mydomain.com\jane_admin" and the password as well. Click "OK" and you should have a popup window that says "welcome to mydomain". Click OK and another window will prompt you to restart the VM.  </p>
+<br />
+
+<p><img width="1514" height="1070" alt="image" src="https://github.com/user-attachments/assets/d2af2f50-5c62-41d4-a15b-dcbb343d3f5c" />
+</p>
+<br />
+
+<p>Go back to your DC-2 VM and open "Active Directory Users and Computers". Click on the "computers" folder and you should see client-2 in there. Finally, right click on "mydomain.com" and create another organizational unit called "_CLIENTS". Once created, click on "computers" again and drag "client-2" into the "_CLIENTS" folder. A popup window will appear, just hit "yes". </p>
