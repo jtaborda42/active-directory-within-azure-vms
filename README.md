@@ -250,8 +250,8 @@ This tutorial outlines the preparation of a client server and domain controller 
 <p>Log into "client-2" (if you have not done so already) as lab user and we're going to join it to the domain. In "client-2", open "System" and then click on "advanced system settings". In the "Computer name" tab, click on the "change" box to change the domain. </p>
 <br />
 
-<p><img width="678" height="814" alt="image" src="https://github.com/user-attachments/assets/75a9b630-b2e1-4316-be70-91d47d127f3c" />
+<p><img width="2262" height="1470" alt="image" src="https://github.com/user-attachments/assets/acdda0c5-138f-4602-977a-af9c67b84614" />
 </p>
 <br />
 
-<p>Click on the "Domain" bullet and type in "mydomain.com" (make sure to spell it right as well.) </p>
+<p>Click on the "Domain" bullet and type in "mydomain.com" (make sure to spell it right as well.) Click "OK" and the "Computer Name/Domain Changes" window should pop up. Type in the username "mydomain.com\jane_admin" and the password as well. Click "OK" and you should have a popup window that says "welcome to mydomain". Click OK and another window will prompt you to restart the VM.  </p>
