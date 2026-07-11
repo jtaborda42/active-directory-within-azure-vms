@@ -261,4 +261,18 @@ This tutorial outlines the preparation of a client server and domain controller 
 </p>
 <br />
 
-<p>Go back to your DC-2 VM and open "Active Directory Users and Computers". Click on the "computers" folder and you should see client-2 in there. Finally, right click on "mydomain.com" and create another organizational unit called "_CLIENTS". Once created, click on "computers" again and drag "client-2" into the "_CLIENTS" folder. A popup window will appear, just hit "yes". </p>
+<p>Go back to your DC-2 VM and open "Active Directory Users and Computers". Click on the "computers" folder and you should see client-2 in there. Finally, right click on "mydomain.com" and create another organizational unit called "_CLIENTS". Once created, click on "computers" again and drag "client-2" into the "_CLIENTS" folder. A popup window will appear, just hit "yes". Log back into your Client-2 virtual machine as "mydomain.com\jane_admin".</p>
+<br />
+
+<p><img width="2566" height="2130" alt="image" src="https://github.com/user-attachments/assets/eb3ccc6d-ddeb-4135-b97d-73f3bc0175a1" />
+</p>
+<br />
+
+<p>Once you login as jane_admin on Client-2, right click on the start menu and click on "System". Scroll down to "Remote Desktop".</p>
+<br />
+
+<p><img width="2566" height="2130" alt="image" src="https://github.com/user-attachments/assets/9d94cfae-e7bf-434d-aa90-7010eb9bd965" />
+</p>
+<br />
+
+<p>Click on "Remote Desktop Users" and click on the "Add" button. In the "Select Users or Groups" window, type "Domain Users" in the white box. Click "check names" and then click okay.</p>
