@@ -275,4 +275,16 @@ This tutorial outlines the preparation of a client server and domain controller 
 </p>
 <br />
 
-<p>Click on "Remote Desktop Users" and click on the "Add" button. In the "Select Users or Groups" window, type "Domain Users" in the white box. Click "check names" and then click okay.</p>
+<p>Click on "Remote Desktop Users" and click on the "Add" button. In the "Select Users or Groups" window, type "Domain Users" in the white box. Click "check names" and then click okay. Log back into DC-2 as the domain admin. At the search bar at the bottom, type "Windows Powershell Ise". Right click on Powershell Ise and "Run as Administrator." A window will pop up, click yes.</p>
+<br \>
+<p><img width="3668" height="1962" alt="image" src="https://github.com/user-attachments/assets/ff0a88ab-935e-450a-a9a6-6af34075954d" />
+</p>
+<br />
+
+<p>On the left hand corner of Powershell, click on blank sheet button with the yellow star to create a new script. Save it on your desktop as "Create_Users".</p>
+<br />
+
+<p><img width="3674" height="1950" alt="image" src="https://github.com/user-attachments/assets/0f7daf84-9966-46f5-aea9-af22e1b06fa0" />
+</p>
+<br />
+<p>The script shown will be used to create random users through powershell. Click on the "play" button in Powershell to begin creating random users. A window will pop up and click OK. They will pop up in your Active Directory "_EMPLOYEES" file.</p>
